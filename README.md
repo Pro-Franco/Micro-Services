@@ -67,14 +67,5 @@ Observações
 - Se você usar Docker para PostgreSQL, exponha a porta 5432 e crie o database `obras`.
 - Se preferir não usar Postgres, adapte `application.properties` para um banco em memória para desenvolvimento.
 
-Próximos passos recomendados
-- Ajustar credenciais do DB para ambiente seguro
-- Criar scripts Docker Compose para orquestrar Eureka + Postgres + serviços
-- Adicionar README.md específico em cada serviço com endpoints e exemplos de uso
 
-Se quiser, eu posso:
-- criar um `docker-compose.yml` para rodar Postgres + Eureka + serviços;
-- executar os comandos git para adicionar, commitar e subir para o remote que você configurou.
-
----
-Gerado automaticamente a partir dos `pom.xml` e `application.properties` dos serviços.
+Gerado a partir dos `pom.xml` e `application.properties` dos serviços.
